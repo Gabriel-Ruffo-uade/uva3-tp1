@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>UVA3-1 javascript</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicios de UVA 3-1 - Alumno Ruffo Eduardo Gabriel</h1>
+    </header>
+    <main>
+        <div class="wrapper">
+            <!--Primer ejercicio-->
+            <h2>Ejercicio 1</h2>
+            <div class="mensaje" id="mensajeBienvenida">
+                Cargando mensaje...
+            </div>
+            <!--segundo ejercicio-->
+            <hr>
+            <h2>Ejercicio 2</h2>
+            <div class="contenedor">
+                <h1>Ingresa tus datos</h1>
+                <form id="formulario">
+                    <input type="text" id="nombre" placeholder="Nombre" required />
+                    <input type="text" id="apellido" placeholder="Apellido" required />
+                    <input type="number" id="edad" placeholder="Edad" required min="0" />
+                    <button type="submit">Mostrar saludo</button>
+                </form>
+
+                <div class="mensaje" id="mensajeBienvenidaPersonalizado"></div>
+            </div>
+            <hr>
+            <h2>Ejercicio 3</h2>
+            <!--tercer ejercicio-->
+            <div class="mensaje" id="mensajeDiasVividos"></div>
+        </div>
+    </main>
+    <footer>
+        <p> © 2025 - Curso: Diseño y Desarollo Web (15130)</p>
+        <p>Profesora: Patricia Litovicius</p>
+    </footer>
+    <script src="ejercicio.js"></script>
+</body>
+
+</html>
